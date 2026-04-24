@@ -11,7 +11,7 @@ import axios from 'axios';
 
 // Create axios instance with base config
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:8080/api',
+  baseURL: process.env.REACT_APP_API_BASE_URL || 'https://sims-backend-9d2w.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
